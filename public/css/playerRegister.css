@@ -1,0 +1,190 @@
+
+/*li{*/
+/*    list-style: none;*/
+/*}*/
+/*li label{*/
+/*    margin-top: 1rem;*/
+/*}*/
+/*li input[type='text'],input[type='date'],input[type='tel'],input[type='email'],input[type='file'],input[type='number'],select{*/
+/*    border: none;*/
+/*    outline: none;*/
+/*    background:transparent;*/
+/*    border:3px solid #ffffff;*/
+/*    border-radius: 5px;*/
+/*    color: #ffffff;*/
+    
+/*}*/
+/*li input[type='text']:focus,input[type='date']:focus,input[type='tel']:focus,input[type='email']:focus,input[type='number']:focus,input[type='file']:focus,select:focus*/
+/*{*/
+/*    border: 3px solid #ffffff;*/
+/*    box-shadow: none;*/
+/*    outline: none;*/
+/*    background: transparent;*/
+/*    color: #ffffff;*/
+/*}*/
+/*.bg-remove-input{*/
+/*        border: 3px solid white;*/
+/*        background: transparent;*/
+/*        border:solid white;*/
+/*        }*/
+/*        .bg-remove-input:focus{*/
+/*        background: transparent;*/
+/*        border:3px solid white;*/
+/*        color: white;*/
+/*        outline: 0;*/
+/*        }*/
+/*select option{*/
+/*    background: black;*/
+/*}*/
+/*.btns{*/
+/*    display: inline-block;*/
+/*    overflow: auto;*/
+/*    width: 30vh;*/
+    /* background-color: aliceblue; */
+/*    white-space: nowrap;*/
+/*    margin: 0 auto;*/
+/*}*/
+/*#cancelBtn{*/
+/*    float: left;*/
+/*    margin-left: 5.7rem;*/
+/*    width: 10%;*/
+/*    height: 2.5rem;*/
+/*    color: #000000;*/
+/*    background-color: #ffffff;*/
+/*    border: none;*/
+/*    border-radius: 4px;*/
+/*}*/
+/*#submitBtn{*/
+/*    float: right;*/
+/*    margin-right: 3.7rem;*/
+/*    width: 10%;*/
+/*    height:2.5rem;*/
+/*    color: black;*/
+/*    background-color: #ffffff;*/
+/*    border: none;*/
+/*    border-radius: 4px;*/
+/*}*/
+/*.title-1{*/
+    /* margin: 10px; */
+/*    text-align: center;*/
+/*    font-size: 3vw;*/
+/*    font-weight: bold;*/
+/*    width: max-content;*/
+/*    margin: auto;*/
+/*    border-bottom: 1px solid #ffffff;*/
+   
+/*}*/
+/*.op{*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*}*/
+/*.title-2{*/
+/*    text-align: center;*/
+/*    margin-top: 3px;*/
+/*    font-size: 1.7vmax;*/
+/*    font-weight: bold;*/
+/*}*/
+/*@media only screen and (max-width: 540px) {*/
+/*    .wrapExtra{*/
+/*        display: flex;*/
+/*        justify-content: space-around;*/
+/*        flex-direction: column;*/
+/*        flex-wrap: wrap;*/
+/*    }*/
+/*    .title-1,.title-2{*/
+/*        font-size: larger;*/
+/*    }*/
+/*    .Btn{*/
+/*        width: 6rem !important;*/
+/*        height: 2.5rem;*/
+/*        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
+/*        margin: 10px 10px 10px 10px;*/
+        /* font-size: 1.2rem; */
+/*    }*/
+    
+/*}*/
+/*@media only screen and (max-width:820px){*/
+/*    .option-menu{*/
+/*        height: 2.5vh;*/
+/*        width: 10rem;*/
+/*    }*/
+/*    .option-size{*/
+/*        width: 10rem;*/
+/*    }*/
+/*}*/
+/*.option-color{*/
+/*    background: #00000000;*/
+/*}*/
+/*.option-menu{*/
+/*    display: flex;*/
+/*    width: 100%;*/
+/*    height: 2.7rem;*/
+/*    border-radius: 0.375rem;*/
+    /* background-color: black; */
+/*}*/
+
+/*.option-size{*/
+/* display: block; */
+/*width: 15rem;*/
+/*font-weight: 400;*/
+/*color: #212529;*/
+/*background-color:transparent;*/
+/*}*/
+body{
+    background-color: black !important;
+    color: white !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+.underLine{
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+    text-decoration-color: grey;
+    margin-bottom: auto;
+}
+input[type='text'],input[type='date'],input[type='file'],input[type='tel'],input[type='email'],input[type='number']{
+    border: none;
+    border:3px solid #ffffff;
+    border-radius: 10;
+    color: #ffffff;
+}
+input[type='text']:focus,input[type='date']:focus,input[type='file']:focus,input[type='tel']:focus,input[type='email']:focus,input[type='number']:focus,select:focus{
+    border: none;
+    border:3px solid #ffffff;
+    border-radius: 10;
+    color: #ffffff;
+}
+textarea{
+    border: 3px solid white !important;
+    color: white !important;
+    columns: 20;
+}
+select{
+    border: 3px solid white !important;
+    color: black !important;
+}
+.form-control{
+    outline: none !important;
+    background:transparent !important;
+}
+button:hover{
+    color: #c91D22 !important;
+    border:1px solid #c91D22 !important;
+}
+::-webkit-calendar-picker-indicator {
+filter: invert(1);
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+
+}
+
+/* Firefox */
+input[type=number] {
+-moz-appearance: textfield;
+}
+
+

@@ -1,0 +1,57 @@
+
+ .logo-img
+ {
+   max-height: 15vh;
+   max-width: 10vw;
+   /* background-color: #000000; */
+   position: absolute;
+   top: 2vh;
+   left: 2vw;
+   z-index: 9;
+ }
+
+
+ .navbar-style
+ {
+    background-color:#080808;
+   z-index: 8;
+ }
+ .nav-text
+ {
+   padding-right:.5rem;
+   padding-left:.5rem;
+   display:block;
+   padding:.5rem 1rem;
+   color: #ffffff;
+   text-decoration: none;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 20px;
+   font-weight: bold;
+ }
+ .nav-text:hover
+ {
+   color: #e40a10;
+ }
+
+ /* Footer section css */
+ .page-footer
+   {
+       position: sticky;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       background-color: #080808;
+       color:white;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       z-index:2;
+   }
+
+   /*  button css  */
+   .btn-class:hover
+   {
+       color: #c91D22;
+       border: solid #c91D22 3px;
+   }
+   
+  
+

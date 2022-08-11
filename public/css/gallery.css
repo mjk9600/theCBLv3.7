@@ -1,0 +1,116 @@
+
+/*h1{*/
+/*    font-family: Satisfy;*/
+/*    font-size:50px;*/
+/*    text-align:center;*/
+/*    color:black;*/
+/*    padding:1%;*/
+/*  }*/
+/*  #gallery{*/
+/*    -webkit-column-count:4;*/
+/*    -moz-column-count:4;*/
+/*    column-count:4;*/
+    
+/*    -webkit-column-gap:20px;*/
+/*    -moz-column-gap:20px;*/
+/*    column-gap:20px;*/
+/*  }*/
+/*  @media (max-width:1200px){*/
+/*    #gallery{*/
+/*    -webkit-column-count:3;*/
+/*    -moz-column-count:3;*/
+/*    column-count:3;*/
+      
+/*    -webkit-column-gap:20px;*/
+/*    -moz-column-gap:20px;*/
+/*    column-gap:20px;*/
+/*  }*/
+/*  }*/
+/*  @media (max-width:800px){*/
+/*    #gallery{*/
+/*    -webkit-column-count:2;*/
+/*    -moz-column-count:2;*/
+/*    column-count:2;*/
+      
+/*    -webkit-column-gap:20px;*/
+/*    -moz-column-gap:20px;*/
+/*    column-gap:20px;*/
+/*  }*/
+/*  }*/
+/*  @media (max-width:600px){*/
+/*    #gallery{*/
+/*    -webkit-column-count:1;*/
+/*    -moz-column-count:1;*/
+/*    column-count:1;*/
+/*  }  */
+/*  }*/
+/*  #gallery img,#gallery video {*/
+/*    width:100%;*/
+/*    height:auto;*/
+/*    margin: 4% auto;*/
+/*    box-shadow:-3px 5px 15px #000;*/
+/*    cursor: pointer;*/
+/*    -webkit-transition: all 0.2s;*/
+/*    transition: all 0.2s;*/
+/*  }*/
+/*  .modal-img,.model-vid{*/
+/*    width:100%;*/
+/*    height:auto;*/
+/*  }*/
+/*  .modal-body{*/
+/*    padding:0px;*/
+/*  }*/
+
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        @media only screen and (max-width: 540px) {
+            .underLine{
+                width: 80vw;
+            }
+            .btnWidth{
+                width: fit-content !important;
+            }
+        }
+        .btnWidth{
+            font-weight: bold;
+            width: 25%;
+        }
+        .imageSlide>img{
+            height: 20vh;
+        }
+        .slick-slide img{
+            border: 2px solid gray;
+            height: 35vh;
+            width: 55vh;
+        }
+        .btn:hover{
+            color:#e40a10 !important;
+            border: 2px solid #e40a10 !important;
+            box-sizing: border-box;
+        }
+.slick-dots li {
+    margin: 0;
+}
+
+.slick-dots {
+    margin-top: 50px;
+}
+
+.slick-dots li button:before, .slick-dots li.slick-active button:before {
+    color: transparent;
+    opacity: 1;
+}
+
+.slick-dots li button:before {
+    margin-top: 5px;
+    background-color: transparent;
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 20%;
+    display: inline-block;
+    height: 5px;
+    width: 10px;
+}
+.slick-dots li.slick-active button:before {
+    background-color: #e40a10;
+}

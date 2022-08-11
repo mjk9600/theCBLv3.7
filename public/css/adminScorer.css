@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Heading and Button Style */
+.underLine{
+    border-bottom: 2px solid white;
+    width: 50vw;
+    margin: auto;
+}
+@media only screen and (max-width: 540px) {
+    .underLine{
+        width: 80vw;
+    }
+    .btnWidth{
+        width: fit-content !important;
+    }
+}
+.btnWidth{
+    color: black !important;
+    font-weight: bold;
+    width: 25%;
+}
+/* End of Heading and Button */
+
+/* Start Live Match Scorer */
+.bgGradiant{
+    background: linear-gradient(02.68deg, #0844A6 -9.44%, #E40A10 93.37%);
+}
+.teamLogo{
+    border-radius: 50%;
+    height: 13vh;
+}
+i:hover{
+    cursor: pointer;    
+}
+
+i{
+    font-size: 3.5vh;
+}
+.heading{
+    padding: 0.5vw 5vw 0.2vw 5vw;
+    border-radius: 7px;
+    font-size: 1.5vw;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 540px) {
+    .teamLogo{
+        height: 7vh;
+    }
+    .marginNon{
+        margin: -1vh;
+    }
+    p{
+        font-size: 1.5vh !important;
+    }
+}
+
+/* End Live Match Scorer */

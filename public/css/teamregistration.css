@@ -1,0 +1,365 @@
+/*body{*/
+/*    font-family:"Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";*/
+/*    background-color: black;*/
+/*    color: #ffffff;*/
+/*    box-sizing: border-box;*/
+/*}*/
+/*li{*/
+    /* box-sizing: border-box; */
+/*    list-style: none;*/
+/*}*/
+/*li label{*/
+/*    margin-top: 1rem;*/
+/*}*/
+/*li input[type='text'],input[type='date'],input[type='tel'],input[type='email'],select{*/
+/*    border: none;*/
+/*    outline: none;*/
+/*    background:transparent;*/
+/*    border:3px solid #ffffff;*/
+/*    border-radius: 10;*/
+/*    color: #ffffff;*/
+    
+/*}*/
+/*li input[type='text']:focus,input[type='date']:focus,input[type='tel']:focus,input[type='email']:focus,select:focus*/
+/*{*/
+/*    border: 3px solid #ffffff;*/
+/*    box-shadow: none;*/
+/*    outline: none;*/
+/*    background: transparent;*/
+/*    color: #ffffff;*/
+/*}*/
+/*.hoverBtn:hover{*/
+/*    border:2px solid red;*/
+/*    color: red;*/
+/*    box-sizing: border-box;*/
+/*}*/
+/* .search-container {
+    float: right;
+  } */
+  
+/*   input[type=text] {*/
+/*    padding: 6px;*/
+/*    margin-top: 8px;*/
+/*    font-size: 17px;*/
+/*    border: none;*/
+/*  }*/
+  
+/*    button {*/
+/*    float: right;*/
+/*    padding: 6px 10px;*/
+/*    margin-top: 8px;*/
+/*    margin-right: 16px;*/
+/*    background: #ddd;*/
+/*    font-size: 17px;*/
+/*    border: none;*/
+/*    cursor: pointer;*/
+/*  }*/
+  
+/*   .search-container button:hover {*/
+/*    background: #ccc;*/
+/*  }*/
+/*table{*/
+
+/*    margin-left: 10vh;*/
+/*}  */
+/*@media only screen and (max-width: 540px) {*/
+/*    .wrapExtra{*/
+/*        display: flex;*/
+/*        justify-content: space-around;*/
+/*        flex-direction: column;*/
+/*        flex-wrap: wrap;*/
+/*    }*/
+/*}*/
+/*.tableBorder{*/
+/*    border: 1px  black;*/
+/*    border-radius: 10px;*/
+/*    box-shadow: 5px 10px 50px #020202;*/
+
+/*}*/
+
+
+/* tr:nth-child(even) {
+    background-color: #dddddd;
+} */
+/* .pageNumber {
+    padding: 2px;
+} */
+/* table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+} */
+
+/* td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+} */
+/*.focus {*/
+/*    background-color: #5d66e9;*/
+/*    color: #fff;*/
+/*    cursor: pointer;*/
+/*    font-weight: bold;*/
+/*    border-radius: 5px;*/
+    
+/*}*/
+
+/*.pageNumber {*/
+/*    padding: 2px;*/
+/*    margin: 5px;*/
+/*    box-sizing: border-box;*/
+/*}*/
+/*.dataTables_filter { visibility: hidden;}*/
+/* .dataTables_length {
+    display: none;
+} */
+/*.dataTables_length,*/
+/*.dataTables_filter,*/
+/*.dataTables_info {*/
+/*color: white !important;*/
+/*font-weight: bold;*/
+/*}*/
+/* .paginate_button.active .page-link{
+    background-color: #5d66e9 !important;
+    color: azure;
+} */
+
+
+
+/*Profile Pic Start*/
+/*.picture-container{*/
+/*    position: relative;*/
+/*    cursor: pointer;*/
+/*    text-align: center;*/
+/*}*/
+/*.picture{*/
+/*    width: 106px;*/
+/*    height: 106px;*/
+/*    background-color: #999999;*/
+/*    border: 4px solid #CCCCCC;*/
+/*    color: #FFFFFF;*/
+/*    border-radius: 50%;*/
+/*    margin: 0px auto;*/
+    /* margin-right: -7vh; */
+    /* padding: -2vh; */
+/*    overflow: hidden;*/
+/*    transition: all 0.2s;*/
+/*    -webkit-transition: all 0.2s;*/
+/*}*/
+/*.picture:hover{*/
+/*    border-color: #f80000;*/
+/*}*/
+/*.content.ct-wizard-green .picture:hover{*/
+/*    border-color: #05ae0e;*/
+/*}*/
+/*.content.ct-wizard-blue .picture:hover{*/
+/*    border-color: #3472f7;*/
+/*}*/
+/*.content.ct-wizard-orange .picture:hover{*/
+/*    border-color: #ff9500;*/
+/*}*/
+/*.content.ct-wizard-red .picture:hover{*/
+/*    border-color: #ff3b30;*/
+/*}*/
+/*.picture input[type="file"] {*/
+/*    cursor: pointer;*/
+/*    display: block;*/
+/*    height: 100%;*/
+/*    left: 0;*/
+/*    opacity: 0 !important;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    width: 100%;*/
+/*}*/
+
+/*.picture-src{*/
+/*    width: 100%;*/
+    
+/*}*/
+/*Profile Pic End*/
+
+
+body{
+    font-family:"Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
+    background-color: black;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+li{
+    /* box-sizing: border-box; */
+    list-style: none;
+}
+li label{
+    margin-top: 1rem;
+}
+li input[type='text'],input[type='date'],input[type='tel'],input[type='number'],input[type='email'],select{
+    border: none;
+    outline: none;
+    background:transparent;
+    border:1px solid #ffffff;
+    border-radius: 10;
+    color: #ffffff;
+    
+}
+li input[type='text']:focus,input[type='date']:focus,input[type='number']:focus,input[type='tel']:focus,input[type='email']:focus,select:focus
+{
+    border: 1px solid #ffffff;
+    box-shadow: none;
+    outline: none;
+    background: transparent;
+    color: #ffffff;
+}
+.hoverBtn:hover{
+    border:2px solid #c91D22;
+    color: #c91D22;
+    box-sizing: border-box;
+}
+/* .search-container {
+    float: right;
+  } */
+  
+   input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+    button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+   .search-container button:hover {
+    background: #ccc;
+  }
+table{
+
+    margin-left: 10vh;
+}  
+@media only screen and (max-width: 540px) {
+    .wrapExtra{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+.tableBorder{
+    border: 1px  black;
+    border-radius: 10px;
+    box-shadow: 5px 10px 50px #020202;
+
+}
+
+
+/* tr:nth-child(even) {
+    background-color: #dddddd;
+} */
+/* .pageNumber {
+    padding: 2px;
+} */
+/* table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+} */
+
+/* td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+} */
+.focus {
+    background-color: #5d66e9;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+
+.pageNumber {
+    padding: 2px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+.dataTables_filter { visibility: hidden;}
+/* .dataTables_length {
+    display: none;
+} */
+.dataTables_length,
+.dataTables_filter,
+.dataTables_info {
+color: white !important;
+font-weight: bold;
+}
+/* .paginate_button.active .page-link{
+    background-color: #5d66e9 !important;
+    color: azure;
+} */
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: white !important;
+    border-style:  groove  !important;
+}
+
+/*Profile Pic Start*/
+.picture-container{
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+.picture{
+    width: 70px;
+    height: 70px;
+    background-color: #999999;
+    border: 4px solid #CCCCCC;
+    color: #FFFFFF;
+    border-radius: 50%;
+    margin: 0px auto;
+    /* margin-right: -7vh; */
+    /* padding: -2vh; */
+    overflow: hidden;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+.picture:hover{
+    border-color: #f80000;
+}
+.content.ct-wizard-green .picture:hover{
+    border-color: #05ae0e;
+}
+.content.ct-wizard-blue .picture:hover{
+    border-color: #3472f7;
+}
+.content.ct-wizard-orange .picture:hover{
+    border-color: #ff9500;
+}
+.content.ct-wizard-red .picture:hover{
+    border-color: #ff3b30;
+}
+.picture input[type="file"] {
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0 !important;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.picture-src{
+    width: 100%;
+    
+}
+/*Profile Pic End*/
